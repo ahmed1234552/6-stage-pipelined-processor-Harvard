@@ -1,0 +1,521 @@
+# Reading C:/intelFPGA/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Senior-1 Semester/Computer Architecture/Project/code/Generic_Register.vhd}
+vsim -gui work.generic_register
+# vsim -gui work.generic_register 
+# Start time: 16:54:50 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.generic_register(behavioral)
+add wave -position end  sim:/generic_register/n
+add wave -position end  sim:/generic_register/clk
+add wave -position end  sim:/generic_register/reset
+add wave -position end  sim:/generic_register/enable
+add wave -position end  sim:/generic_register/data_in
+add wave -position end  sim:/generic_register/data_out
+force -freeze sim:/generic_register/reset 1 0
+force -freeze sim:/generic_register/data_in 1 0, 0 {10 ps} -r 20
+force -freeze sim:/generic_register/clk 1 0, 0 {5 ps} -r 10
+
+run
+force -freeze sim:/generic_register/enable 1 0
+force -freeze sim:/generic_register/reset 0 0
+run
+force -freeze sim:/generic_register/data_in 1 0, 0 {5 ps} -r 10
+
+run
+quit -sim
+# End time: 17:03:23 on Apr 17,2023, Elapsed time: 0:08:33
+# Errors: 0, Warnings: 0
+# Loading project fetch stage
+# Compile of instruction_mem.vhd was successful.
+vsim -gui work.instruction_cache
+# vsim -gui work.instruction_cache 
+# Start time: 17:09:17 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_cache(behavioral)
+quit -sim
+# End time: 17:10:09 on Apr 17,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# Compile of instruction_mem.vhd was successful.
+vsim -gui work.instruction_cache
+# vsim -gui work.instruction_cache 
+# Start time: 17:11:19 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_cache(behavioral)
+mem load -filltype value -filldata {10 } -fillradix decimal /instruction_cache/registers(0)
+mem load -filltype value -filldata 20 -fillradix decimal /instruction_cache/registers(1)
+mem load -filltype value -filldata 30 -fillradix decimal /instruction_cache/registers(2)
+mem load -filltype value -filldata 40 -fillradix decimal /instruction_cache/registers(3)
+add wave -position end  sim:/instruction_cache/read_address_1
+add wave -position end  sim:/instruction_cache/data_out_1
+add wave -position end  sim:/instruction_cache/registers
+force -freeze sim:/instruction_cache/read_address_1 0 0
+run
+force -freeze sim:/instruction_cache/read_address_1 1 0
+run
+quit -sim
+# End time: 17:13:17 on Apr 17,2023, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 0
+# Compile of Generic_Register.vhd was successful.
+# Load canceled
+# Compile of instruction_mem.vhd was successful.
+# Compile of fetch_stage.vhd failed with 1 errors.
+# Compile of fetch_stage.vhd failed with 1 errors.
+# Compile of fetch_stage.vhd failed with 4 errors.
+# Compile of fetch_stage.vhd was successful.
+# Compile of fetch_stage.vhd failed with 4 errors.
+vsim work.instruction_cache
+# vsim work.instruction_cache 
+# Start time: 17:34:22 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_cache(behavioral)
+quit -sim
+# End time: 17:34:34 on Apr 17,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# Compile of instruction_mem.vhd was successful.
+# Load canceled
+# Compile of fetch_stage.vhd failed with 2 errors.
+vsim work.instruction_cache
+# vsim work.instruction_cache 
+# Start time: 17:36:52 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_cache(behavioral)
+quit -sim
+# End time: 17:37:07 on Apr 17,2023, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+# Compile of instruction_mem.vhd was successful.
+# Compile of fetch_stage.vhd failed with 2 errors.
+vsim work.instruction_cache
+# vsim work.instruction_cache 
+# Start time: 17:38:26 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_cache(behavioral)
+quit -sim
+# End time: 17:38:34 on Apr 17,2023, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# Compile of fetch_stage.vhd failed with 2 errors.
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 17:40:19 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/enable 1 0
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 1 0
+run
+force -freeze sim:/fetch_stage/reset 0 0
+
+run
+quit -sim
+# End time: 17:44:10 on Apr 17,2023, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 1
+# Compile of fetch_stage.vhd failed with 2 errors.
+# Compile of fetch_stage.vhd failed with 1 errors.
+# Compile of fetch_stage.vhd failed with 1 errors.
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 17:47:39 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/enable 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 10 0
+# ** Error: (vsim-4026) Value "10" does not represent a literal of the enumeration type.
+# ** Error: (vsim-4011) Invalid force value: 10 0.
+# 
+force -freeze sim:/fetch_stage/reset 1 0
+
+run
+force -freeze sim:/fetch_stage/reset 0 0
+
+run
+# WARNING: No extended dataflow license exists
+quit -sim
+# Load canceled
+# End time: 17:50:23 on Apr 17,2023, Elapsed time: 0:02:44
+# Errors: 1, Warnings: 2
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 17:51:05 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 1 0
+force -freeze sim:/fetch_stage/enable 1 0
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 0 0
+run
+# Load canceled
+vsim work.fetch_stage
+# End time: 17:56:36 on Apr 17,2023, Elapsed time: 0:05:31
+# Errors: 1, Warnings: 1
+# vsim work.fetch_stage 
+# Start time: 17:56:36 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 1 0
+force -freeze sim:/fetch_stage/enable 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 0 0
+run
+force -freeze sim:/fetch_stage/enable 0 0
+
+run
+quit -sim
+# End time: 18:01:53 on Apr 17,2023, Elapsed time: 0:05:17
+# Errors: 0, Warnings: 1
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 18:03:57 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/reset 1 0
+force -freeze sim:/fetch_stage/enable 1 0
+force -freeze sim:/fetch_stage/clk 1 0, 0 {25 ps} -r 50
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 0 0
+run
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+quit -sim
+# End time: 18:07:13 on Apr 17,2023, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 1
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 18:07:22 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/reset 1 0
+force -freeze sim:/fetch_stage/enable 1 0
+force -freeze sim:/fetch_stage/clk 1 0, 0 {25 ps} -r 50
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 0 0
+run
+quit -sim
+# End time: 18:08:19 on Apr 17,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 18:09:11 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/reset 1 0
+force -freeze sim:/fetch_stage/enable 1 0
+force -freeze sim:/fetch_stage/clk 1 0, 0 {25 ps} -r 50
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+force -freeze sim:/fetch_stage/reset 0 0
+
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end  sim:/fetch_stage/initial_pc
+
+eun 
+# invalid command name "eun"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 18:15:22 on Apr 17,2023, Elapsed time: 0:06:11
+# Errors: 19, Warnings: 2
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 18:43:44 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/enable 1 0
+
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 1 0
+
+run
+force -freeze sim:/fetch_stage/reset 0 0
+
+run
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+quit -sim
+# End time: 18:47:02 on Apr 17,2023, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 1
+# Compile of fetch_stage.vhd failed with 3 errors.
+# Compile of fetch_stage.vhd was successful.
+vsim work.fetch_stage
+# vsim work.fetch_stage 
+# Start time: 18:49:29 on Apr 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fetch_stage(behavioral)
+# Loading work.generic_register(behavioral)
+# Loading work.instruction_mem(behavioral)
+
+add wave -position end  sim:/fetch_stage/clk
+add wave -position end  sim:/fetch_stage/reset
+add wave -position end  sim:/fetch_stage/enable
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+add wave -position end  sim:/fetch_stage/initial_pc
+add wave -position end  sim:/fetch_stage/pc_output
+add wave -position end  sim:/fetch_stage/instruction
+add wave -position end  sim:/fetch_stage/f_d_bufffer_in
+
+mem load -filltype value -filldata 0 -fillradix decimal /fetch_stage/instruction_cashe/registers(0)
+mem load -filltype value -filldata 10 -fillradix decimal /fetch_stage/instruction_cashe/registers(1)
+mem load -filltype value -filldata 20 -fillradix decimal /fetch_stage/instruction_cashe/registers(2)
+mem load -filltype value -filldata 30 -fillradix decimal /fetch_stage/instruction_cashe/registers(3)
+mem load -filltype value -filldata 40 -fillradix decimal /fetch_stage/instruction_cashe/registers(4)
+mem load -filltype value -filldata 50 -fillradix decimal /fetch_stage/instruction_cashe/registers(5)
+mem load -filltype value -filldata 60 -fillradix decimal /fetch_stage/instruction_cashe/registers(6)
+force -freeze sim:/fetch_stage/clk 1 0, 0 {10 ps} -r 20
+force -freeze sim:/fetch_stage/reset 0 0
+force -freeze sim:/fetch_stage/enable 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /fetch_stage/instruction_cashe
+force -freeze sim:/fetch_stage/reset 1 0
+run
+add wave -position end  sim:/fetch_stage/f_d_bufffer_out
+
+run
+force -freeze sim:/fetch_stage/reset 0 0
+run
+# End time: 23:35:37 on Apr 17,2023, Elapsed time: 4:46:08
+# Errors: 0, Warnings: 1

@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Senior-1 Semester/Computer Architecture/Project/code
+Efetch_stage
+Z0 w1681750156
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 dD:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage
+Z5 8D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd
+Z6 FD:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd
+l0
+L6
+VEhIUOanX4;Hm0TGi5AKG[2
+!s100 PkZj9=?3OR>>B4;?1UFmD3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1681750160
+!i10b 1
+Z9 !s108 1681750160.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd|
+Z11 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+Z14 DEx4 work 15 instruction_mem 0 22 1kFbfQ>H5FL5aggc507@V2
+Z15 DEx4 work 16 generic_register 0 22 f0eAk02b<bmzT;15:MGB31
+R1
+R2
+R3
+Z16 DEx4 work 11 fetch_stage 0 22 EhIUOanX4;Hm0TGi5AKG[2
+l24
+L17
+Vj6klK2Q[W@:RF;n=[e_ag3
+!s100 58^00E4bDFgLB986TjmEO3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egeneric_register
+Z17 w1681743005
+R1
+R2
+R3
+R4
+Z18 8D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+Z19 FD:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+l0
+L6
+Vf0eAk02b<bmzT;15:MGB31
+!s100 lVZfccf_oW@7AL=HUT7oT0
+R7
+32
+Z20 !s110 1681744450
+!i10b 1
+Z21 !s108 1681744450.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+Z23 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R15
+l21
+L19
+V:T_6Tj378=kQ_3IQ<<3SO0
+!s100 cQbVokVQifLn^j7:39RcB0
+R7
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R12
+R13
+Einstruction_mem
+Z24 w1681745863
+R1
+R2
+R3
+R4
+Z25 8D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd
+Z26 FD:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd
+l0
+L6
+V1kFbfQ>H5FL5aggc507@V2
+!s100 Q4NHBHEo2A<3Ki=FXVL7l0
+R7
+32
+Z27 !s110 1681745872
+!i10b 1
+Z28 !s108 1681745872.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd|
+Z30 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R14
+l19
+L13
+Vg8bPO]S1zDA:^5InbhS;00
+!s100 :HW`ZNaR6g`5WTeYPF09O2
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13

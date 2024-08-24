@@ -1,0 +1,160 @@
+# Load canceled
+# Compile of ALU_Creative.vhd was successful.
+# Compile of tb_alu16.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of dr_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu16
+# vsim -gui work.tb_alu16 
+# Start time: 14:09:02 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu16(test)
+# Loading work.alu_16bit(behavioral)
+# Loading work.parta(dataflow)
+# Loading work.my_nadder(a_my_nadder)
+# Loading work.my_adder(a_my_adder)
+add wave -position end sim:/tb_alu16/*
+run
+# ** Error: NOP failed
+#    Time: 120 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: DEC failed
+#    Time: 520 ps  Iteration: 0  Instance: /tb_alu16
+quit -sim
+# End time: 14:10:43 on Apr 18,2023, Elapsed time: 0:01:41
+# Errors: 2, Warnings: 2
+vsim -gui work.tb_alu16
+# vsim -gui work.tb_alu16 
+# Start time: 14:11:49 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu16(test)
+# Loading work.alu_16bit(behavioral)
+# Loading work.parta(dataflow)
+# Loading work.my_nadder(a_my_nadder)
+# Loading work.my_adder(a_my_adder)
+add wave -position end sim:/tb_alu16/*
+run
+# ** Error: NOP failed
+#    Time: 120 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: DEC failed
+#    Time: 520 ps  Iteration: 0  Instance: /tb_alu16
+# Compile of tb_alu16.vhd was successful.
+quit -sim
+# End time: 14:13:45 on Apr 18,2023, Elapsed time: 0:01:56
+# Errors: 2, Warnings: 2
+vsim -gui work.tb_alu16
+# vsim -gui work.tb_alu16 
+# Start time: 14:13:55 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu16(test)
+# Loading work.alu_16bit(behavioral)
+# Loading work.parta(dataflow)
+# Loading work.my_nadder(a_my_nadder)
+# Loading work.my_adder(a_my_adder)
+add wave -position end sim:/tb_alu16/*
+run
+# ** Error: INC failed
+#    Time: 160 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: INC failed
+#    Time: 240 ps  Iteration: 0  Instance: /tb_alu16
+# ** Note: End of test bench
+#    Time: 320 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: INC failed
+#    Time: 480 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: INC failed
+#    Time: 560 ps  Iteration: 0  Instance: /tb_alu16
+# Compile of ALU_Creative.vhd was successful.
+# Compile of tb_alu16.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Load canceled
+# Compile of my_nadder.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of dr_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu16
+# End time: 14:22:31 on Apr 18,2023, Elapsed time: 0:08:36
+# Errors: 4, Warnings: 2
+# vsim -gui work.tb_alu16 
+# Start time: 14:22:31 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu16(test)
+# Loading work.alu_16bit(behavioral)
+# Loading work.parta(dataflow)
+# Loading work.my_nadder(a_my_nadder)
+# Loading work.my_adder(a_my_adder)
+add wave -position end sim:/tb_alu16/*
+run
+# ** Error: NOP failed
+#    Time: 120 ps  Iteration: 0  Instance: /tb_alu16
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 1  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 4  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 5  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 6  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 7  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 8  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 9  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ps  Iteration: 10  Instance: /tb_alu16/uut
+# ** Error: INC failed
+#    Time: 440 ps  Iteration: 0  Instance: /tb_alu16
+# ** Error: DEC failed
+#    Time: 520 ps  Iteration: 0  Instance: /tb_alu16
+quit -sim
+# End time: 14:24:37 on Apr 18,2023, Elapsed time: 0:02:06
+# Errors: 3, Warnings: 9
+# Compile of ALU_Creative.vhd was successful.
+# Compile of tb_alu16.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of dr_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu16
+# vsim -gui work.tb_alu16 
+# Start time: 14:25:08 on Apr 18,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu16(test)
+# Loading work.alu_16bit(behavioral)
+# Loading work.parta(dataflow)
+# Loading work.my_nadder(a_my_nadder)
+# Loading work.my_adder(a_my_adder)
+add wave -position end sim:/tb_alu16/*
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 80 ps  Iteration: 1  Instance: /tb_alu16/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 80 ps  Iteration: 4  Instance: /tb_alu16/uut
+# ** Note: End of test bench
+#    Time: 320 ps  Iteration: 0  Instance: /tb_alu16
+# Compile of ALU_Creative.vhd was successful.
+# Compile of tb_alu16.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of dr_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 14:30:14 on Apr 18,2023, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 6

@@ -1,0 +1,294 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Senior-1 Semester/Computer Architecture/Project/code
+Ealu_16bit
+Z0 w1681922283
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage
+Z5 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd
+Z6 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd
+l0
+L5
+VeM99J1o=5@78UHbGC;]=33
+!s100 N[8h2>H=OblNRUHAH=iI=3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1681935378
+!i10b 1
+Z9 !s108 1681935378.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd|
+Z11 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+Z14 DEx4 work 5 parta 0 22 bcGDa[eL4GQhU^g=4OFFW3
+R1
+R2
+R3
+Z15 DEx4 work 9 alu_16bit 0 22 eM99J1o=5@78UHbGC;]=33
+l27
+L17
+V6Va494zD?N8N<9@d=db[P0
+!s100 VjUb6IMCM?^;Le5QHdB@k2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_stage
+Z16 w1681935365
+R3
+R2
+R1
+R4
+Z17 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd
+Z18 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd
+l0
+L6
+VfnFK11XMQA_o6zfmC16jg0
+!s100 ZzEcdozd^3XW2h^C>^j;[2
+R7
+32
+Z19 !s110 1681935379
+!i10b 1
+Z20 !s108 1681935379.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd|
+Z22 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+Z23 DEx4 work 16 generic_register 0 22 f0eAk02b<bmzT;15:MGB31
+R15
+R3
+R2
+R1
+DEx4 work 9 alu_stage 0 22 fnFK11XMQA_o6zfmC16jg0
+l28
+L18
+V2z047;HJ[]8_LU?9d38Y52
+!s100 8kzooKMPJ6:Z6GWjFBV;c0
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Egeneric_register
+Z24 w1681743005
+R3
+R2
+R1
+R4
+Z25 8D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+Z26 FD:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+l0
+L6
+Vf0eAk02b<bmzT;15:MGB31
+!s100 lVZfccf_oW@7AL=HUT7oT0
+R7
+32
+R19
+!i10b 1
+R20
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+Z28 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R2
+R1
+R23
+l21
+L19
+Z29 V:T_6Tj378=kQ_3IQ<<3SO0
+Z30 !s100 cQbVokVQifLn^j7:39RcB0
+R7
+32
+R19
+!i10b 1
+R20
+R27
+R28
+!i113 1
+R12
+R13
+Emy_adder
+Z31 w1681768146
+R2
+R3
+R4
+Z32 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd
+Z33 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd
+l0
+L4
+V2Rm0OcYH]mYdiYnO8?Qlj1
+!s100 @EMV@6LXg<f_cK65Phz:V0
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd|
+Z35 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd|
+!i113 1
+R12
+R13
+Aa_my_adder
+R2
+R3
+DEx4 work 8 my_adder 0 22 2Rm0OcYH]mYdiYnO8?Qlj1
+l9
+L8
+VJbF?:YTjzlS9BlHoSke1n3
+!s100 g<E38KR=9R^5bIbm479@j1
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Emy_nadder
+Z36 w1681768150
+R2
+R3
+R4
+Z37 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd
+Z38 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd
+l0
+L4
+V;e@U;_DgGkdHBgn0[`b5k0
+!s100 KDJ;T2C3>;;Kb^zomIIZZ3
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd|
+Z40 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd|
+!i113 1
+R12
+R13
+Aa_my_nadder
+R2
+R3
+DEx4 work 9 my_nadder 0 22 ;e@U;_DgGkdHBgn0[`b5k0
+l22
+L15
+VAbo@OX>Hol^YaJLMC]GCW0
+!s100 =n7kh:m@z6WD]1<^l:@3m2
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Eparta
+Z41 w1681768586
+R2
+R3
+R4
+Z42 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd
+Z43 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd
+l0
+L6
+VbcGDa[eL4GQhU^g=4OFFW3
+!s100 G1BAHQM4RlNC@@e[>hfzO0
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd|
+Z45 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+R14
+l30
+L17
+V7fHKF2d>GnA:XYg6]]T>S3
+!s100 ?bIzPjn@?Yg@8Kfkj434l3
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Eram
+Z46 w1681931155
+R1
+R2
+R3
+R4
+Z47 8D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd
+Z48 FD:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd
+l0
+L5
+Vi6:mJmDMb4UnM8HSKAMYl0
+!s100 oH[COP=W2T3beNim;K>1[3
+R7
+32
+Z49 !s110 1681931161
+!i10b 1
+Z50 !s108 1681931161.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd|
+Z52 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 i6:mJmDMb4UnM8HSKAMYl0
+l23
+L19
+V4bPfSWPg`WHE<2@ejoM`U2
+!s100 iYiOZ^P1C:6dz9SlKl:da1
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13

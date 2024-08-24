@@ -1,0 +1,307 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Ahmed/Desktop/arch/project/TRY2 ALU
+Ealu_16bit
+Z0 w1681820515
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 82
+Z4 dC:/Users/Ahmed/Desktop/arch/project/try3
+Z5 8C:/Users/Ahmed/Desktop/arch/project/try3/ALU_Creative.vhd
+Z6 FC:/Users/Ahmed/Desktop/arch/project/try3/ALU_Creative.vhd
+l0
+L5 1
+VeM99J1o=5@78UHbGC;]=33
+!s100 N[8h2>H=OblNRUHAH=iI=3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1681820885
+!i10b 1
+Z9 !s108 1681820885.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/ALU_Creative.vhd|
+Z11 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/ALU_Creative.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+Z14 DEx4 work 5 parta 0 22 bcGDa[eL4GQhU^g=4OFFW3
+R1
+R2
+R3
+DEx4 work 9 alu_16bit 0 22 eM99J1o=5@78UHbGC;]=33
+!i122 82
+l27
+L17 198
+VXQ:n;@TQf8TWL2`Go35d31
+!s100 9QI=n?2BN<oKV99_dh^g41
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edr_db
+Z15 w1681820662
+R1
+R2
+R3
+!i122 81
+R4
+Z16 8C:/Users/Ahmed/Desktop/arch/project/try3/dr_tb.vhd
+Z17 FC:/Users/Ahmed/Desktop/arch/project/try3/dr_tb.vhd
+l0
+L5 1
+V8eX<[Xzn?kPja1Ef;I9O61
+!s100 WKc>jK_5aNd>4h^mjhmF>0
+R7
+32
+Z18 !s110 1681820694
+!i10b 1
+Z19 !s108 1681820694.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/dr_tb.vhd|
+Z21 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/dr_tb.vhd|
+!i113 1
+R12
+R13
+Atest_dr
+R1
+R2
+R3
+DEx4 work 5 dr_db 0 22 8eX<[Xzn?kPja1Ef;I9O61
+!i122 81
+l32
+Z22 L8 176
+Vo3?V5LcZWacM?TVETKZH70
+!s100 JeK?F^I3@`8z5PMnhHE7Q3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Emy_adder
+Z23 w1681768146
+R2
+R3
+!i122 84
+R4
+Z24 8C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_adder.vhd
+Z25 FC:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_adder.vhd
+l0
+L4 1
+V2Rm0OcYH]mYdiYnO8?Qlj1
+!s100 @EMV@6LXg<f_cK65Phz:V0
+R7
+32
+Z26 !s110 1681820886
+!i10b 1
+Z27 !s108 1681820886.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_adder.vhd|
+Z29 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_adder.vhd|
+!i113 1
+R12
+R13
+Aa_my_adder
+R2
+R3
+DEx4 work 8 my_adder 0 22 2Rm0OcYH]mYdiYnO8?Qlj1
+!i122 84
+l9
+L8 5
+VJbF?:YTjzlS9BlHoSke1n3
+!s100 g<E38KR=9R^5bIbm479@j1
+R7
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Emy_nadder
+Z30 w1681768150
+R2
+R3
+!i122 85
+R4
+Z31 8C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_nadder.vhd
+Z32 FC:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_nadder.vhd
+l0
+L4 1
+V;e@U;_DgGkdHBgn0[`b5k0
+!s100 KDJ;T2C3>;;Kb^zomIIZZ3
+R7
+32
+Z33 !s110 1681820887
+!i10b 1
+R27
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_nadder.vhd|
+Z35 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/my_nadder.vhd|
+!i113 1
+R12
+R13
+Aa_my_nadder
+R2
+R3
+DEx4 work 9 my_nadder 0 22 ;e@U;_DgGkdHBgn0[`b5k0
+!i122 85
+l22
+L15 15
+VAbo@OX>Hol^YaJLMC]GCW0
+!s100 =n7kh:m@z6WD]1<^l:@3m2
+R7
+32
+R33
+!i10b 1
+R27
+R34
+R35
+!i113 1
+R12
+R13
+Eparta
+Z36 w1681768586
+R2
+R3
+!i122 86
+R4
+Z37 8C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/partA.vhd
+Z38 FC:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/partA.vhd
+l0
+L6 1
+VbcGDa[eL4GQhU^g=4OFFW3
+!s100 G1BAHQM4RlNC@@e[>hfzO0
+R7
+32
+R33
+!i10b 1
+Z39 !s108 1681820887.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/partA.vhd|
+Z41 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/alu_gazer/partA.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+R14
+!i122 86
+l30
+L17 25
+V7fHKF2d>GnA:XYg6]]T>S3
+!s100 ?bIzPjn@?Yg@8Kfkj434l3
+R7
+32
+R33
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Etb_alu16
+Z42 w1681820881
+R1
+R2
+R3
+!i122 83
+R4
+Z43 8C:/Users/Ahmed/Desktop/arch/project/try3/tb_alu16.vhd
+Z44 FC:/Users/Ahmed/Desktop/arch/project/try3/tb_alu16.vhd
+l0
+L5 1
+VmZzWdZLmi0^[_B085HbgJ3
+!s100 DA7`WJIJKc>hTz];SNQ^g3
+R7
+32
+R26
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/arch/project/try3/tb_alu16.vhd|
+Z46 !s107 C:/Users/Ahmed/Desktop/arch/project/try3/tb_alu16.vhd|
+!i113 1
+R12
+R13
+Atest
+R1
+R2
+R3
+DEx4 work 8 tb_alu16 0 22 mZzWdZLmi0^[_B085HbgJ3
+!i122 83
+l32
+R22
+Vi]@44F]5Y:OfPb>FnM2J61
+!s100 XYhoLAfB@UYTE_nSPbDf81
+R7
+32
+R26
+!i10b 1
+R9
+R45
+R46
+!i113 1
+R12
+R13
+Etb_alu16_dr
+Z47 w1681820878
+R1
+R2
+R3
+!i122 87
+R4
+R16
+R17
+l0
+L5 1
+VT@IbMMbZzfaHR[gR1h0O]2
+!s100 z`c`cOki=YC88ZgY7hiN11
+R7
+32
+R33
+!i10b 1
+R39
+R20
+R21
+!i113 1
+R12
+R13
+Atest_dr
+R1
+R2
+R3
+DEx4 work 11 tb_alu16_dr 0 22 T@IbMMbZzfaHR[gR1h0O]2
+!i122 87
+l32
+L8 77
+VLlGT;VTQWJ9h^zzNEBUEP0
+!s100 2QO]H2<QJOE8JSX7W6b;81
+R7
+32
+R33
+!i10b 1
+R39
+R20
+R21
+!i113 1
+R12
+R13

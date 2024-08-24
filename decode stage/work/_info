@@ -1,0 +1,177 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Senior-1 Semester/Computer Architecture/Project/code/decode stage
+Econtroller
+Z1 w1681865731
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd
+Z6 FD:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd
+l0
+L4
+VJHdZ@@7m27Pk1Ti2@_^RU0
+!s100 ZHG:M^[MRDMoH4NHWQ1Mj0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1681908455
+!i10b 1
+Z9 !s108 1681908455.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd|
+Z11 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 10 controller 0 22 JHdZ@@7m27Pk1Ti2@_^RU0
+l25
+L24
+VS?`T@c6j55BnK3Q=VP_0J2
+!s100 GRI0:H_5mm^KfSNgS_6`42
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edecode_stage
+Z15 w1681867128
+R4
+R3
+R2
+R0
+Z16 8D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd
+Z17 FD:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd
+l0
+L7
+VVLP1aM3iAVciTXiXNl[`B2
+!s100 mC1CEeEcL7N0C?[ibNFNc3
+R7
+32
+Z18 !s110 1681942871
+!i10b 1
+Z19 !s108 1681942870.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd|
+Z21 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+Z22 DEx4 work 16 generic_register 0 22 f0eAk02b<bmzT;15:MGB31
+Z23 DEx4 work 13 register_file 0 22 V3A`5kMMdkF<Q6ZLXeaiC1
+R14
+R4
+R3
+R2
+Z24 DEx4 work 12 decode_stage 0 22 VLP1aM3iAVciTXiXNl[`B2
+l33
+L22
+Z25 V>j7d5e<`F3HC?a?<7gUGm0
+Z26 !s100 VGVLP:^G9G[=j;9RWkA=21
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Egeneric_register
+Z27 w1681743005
+R4
+R3
+R2
+R0
+Z28 8D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+Z29 FD:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd
+l0
+L6
+Vf0eAk02b<bmzT;15:MGB31
+!s100 lVZfccf_oW@7AL=HUT7oT0
+R7
+32
+Z30 !s110 1681908456
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+Z32 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R4
+R3
+R2
+R22
+l21
+L19
+V:T_6Tj378=kQ_3IQ<<3SO0
+!s100 cQbVokVQifLn^j7:39RcB0
+R7
+32
+R30
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Eregister_file
+Z33 w1681871296
+R4
+R3
+R2
+R0
+Z34 8D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd
+Z35 FD:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd
+l0
+L5
+VV3A`5kMMdkF<Q6ZLXeaiC1
+!s100 B0Do:Om89>?eKcFLZbDdS0
+R7
+32
+Z36 !s110 1681908461
+!i10b 1
+Z37 !s108 1681908461.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd|
+Z39 !s107 D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R4
+R3
+R2
+R23
+l20
+L15
+VfJL?Bej]cNlSjPSX;bgmH0
+!s100 N07VlUd>cPQYD63D5iBDD1
+R7
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13

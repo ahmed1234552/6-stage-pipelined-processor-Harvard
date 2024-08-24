@@ -1,0 +1,13 @@
+# Reading C:/intelFPGA/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd}
+project open {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu stage}
+# Loading project alu stage
+# Compile of alu_stage.vhd failed with 2 errors.
+# Compile of alu_stage.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of my_nadder.vhd was successful.
+# Compile of partA.vhd was successful.
+# Compile of ALU_Creative.vhd was successful.
+# Compile of alu_stage.vhd was successful.
+# Compile of Generic_Register.vhd was successful.
+# 6 compiles, 0 failed with no errors.

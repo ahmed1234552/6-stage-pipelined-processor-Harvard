@@ -1,0 +1,156 @@
+{D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram
+-- Compiling architecture rtl of ram
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/instruction_mem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_mem
+-- Compiling architecture behavioral of instruction_mem
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_adder
+-- Compiling architecture a_my_adder of my_adder
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/Generic_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/Generic_Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Generic_Register
+-- Compiling architecture Behavioral of Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/partA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity partA
+-- Compiling architecture dataflow of partA
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_try3/try3/alu_gazer/my_nadder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_nadder of my_nadder
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Generic_Register
+-- Compiling architecture Behavioral of Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decode_stage
+-- Compiling architecture behavioral of decode_stage
+-- Loading entity controller
+-- Loading entity register_file
+-- Loading entity Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/memory stage/memory_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/memory stage/memory_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_stage
+-- Compiling architecture arch of memory_stage
+-- Loading entity Generic_Register
+-- Loading entity ram
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wb_stage
+-- Compiling architecture Behavioral of wb_stage
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity processor
+-- Compiling architecture behavioral of processor
+-- Loading entity fetch_stage
+-- Loading entity decode_stage
+-- Loading entity alu_stage
+-- Loading entity memory_stage
+-- Loading entity wb_stage
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/ALU_Creative.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_16bit
+-- Compiling architecture Behavioral of alu_16bit
+-- Loading entity partA
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/fetch stage/fetch_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fetch_stage
+-- Compiling architecture behavioral of fetch_stage
+-- Loading entity Generic_Register
+-- Loading entity instruction_mem
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/alu stage/alu_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_stage
+-- Compiling architecture behavioral of alu_stage
+-- Loading entity alu_16bit
+-- Loading entity Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture behavioral of register_file
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller
+-- Compiling architecture behavioral of controller
+
+} {} {}}

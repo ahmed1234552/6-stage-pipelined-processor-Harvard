@@ -1,0 +1,11 @@
+{D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd} {2 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity WB_Stage
+-- Compiling architecture Behavioral of WB_Stage
+** Warning: D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd(18): (vcom-1272) Length of expected is 17; length of slice name is 16.
+** Warning: D:/Senior-1 Semester/Computer Architecture/Project/code/wb stage/wb_stage.vhd(19): (vcom-1272) Length of expected is 17; length of slice name is 16.
+
+} {} {}}

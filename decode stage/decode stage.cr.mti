@@ -1,0 +1,40 @@
+{D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/utiles/Generic_Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Generic_Register
+-- Compiling architecture Behavioral of Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/decode_stage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decode_stage
+-- Compiling architecture behavioral of decode_stage
+-- Loading entity controller
+-- Loading entity register_file
+-- Loading entity Generic_Register
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/register_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture behavioral of register_file
+
+} {} {}} {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Senior-1 Semester/Computer Architecture/Project/code/decode stage/controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller
+-- Compiling architecture behavioral of controller
+
+} {} {}}
